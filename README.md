@@ -1,4 +1,4 @@
-## Conding Challenge 
+## Coding Challenge 
 
 ### Prerequisite:
  * sbt -> https://www.scala-sbt.org/ <enter>
