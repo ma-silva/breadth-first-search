@@ -20,7 +20,7 @@
 ##### healthcheck http://localhost:8081
 
 ### Routes
-http://localhost:8081/all
-http://localhost:8081/fetch/2
-http://localhost:8081/update/3/2
-http://localhost:8081/insert/4000/3001/3001
+http://localhost:8081/all <br/> 
+http://localhost:8081/fetch/2 <br/> 
+http://localhost:8081/update/3/2 <br/> 
+http://localhost:8081/insert/4000/3001/3001 <br/> 
