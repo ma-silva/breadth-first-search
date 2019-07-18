@@ -17,7 +17,7 @@
  3. Type "sbt docker:publishLocal" to build and Dockerized.
  4. Type "docker run -p8081:8081 coding-challenge:0.0.1-SNAPSHOT" to run the server in port 8081
  
-#### healthcheck http://localhost:8081
+#### Healthcheck http://localhost:8081
 
 ### Routes
 http://localhost:8081/all <br/> 
