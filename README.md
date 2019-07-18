@@ -16,3 +16,11 @@
  2. Type "sbt reload" (Optional) to reload the project.
  3. Type "sbt docker:publishLocal" to build and Dockerized.
  4. Type "docker run -p8081:8081 coding-challenge:0.0.1-SNAPSHOT" to run the server in port 8081
+ 
+##### healthcheck http://localhost:8081
+
+### Routes
+http://localhost:8081/all
+http://localhost:8081/fetch/2
+http://localhost:8081/update/3/2
+http://localhost:8081/insert/4000/3001/3001
