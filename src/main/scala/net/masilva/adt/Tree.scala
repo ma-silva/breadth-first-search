@@ -9,7 +9,7 @@ import scala.annotation.tailrec
  */
 case class Node(
     id: Int, 
-    root: Option[Int], 
+    var root: Option[Int], 
     var parent: Option[Int], 
     var children: List[Node], 
     height: Int

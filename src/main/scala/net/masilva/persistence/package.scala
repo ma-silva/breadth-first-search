@@ -14,6 +14,8 @@ package object persistence {
         val root = Await.result(getNode(id), Duration.Inf).head
         val children = Await.result(getChildren(id), Duration.Inf)
         val tree = Tree(root._1)
+        tree.root.root = root._2
+        tree.root.parent = root._3
         val childrenNodes = (for(c <- children) 
             yield Node(c._1, Some(root._1), Some(root._1), Nil, tree.root.height + 1)).toList
         tree.root.children = childrenNodes
