@@ -9,10 +9,10 @@ class DataServicesSpec extends FreeSpec{
 
         "index should return the list of services." in {
             assert(index(Input.get("/")).awaitValueUnsafe() == Some(s"""Services routes :
-            |http://localhost:8081/all
-            |http://localhost:8081/fetch/2
-            |http://localhost:8081/update/3/2
-            |http://localhost:8081/insert/4000/1""".stripMargin))
+        |http://localhost:8081/all
+        |http://localhost:8081/fetch/2
+        |http://localhost:8081/update/3/2
+        |http://localhost:8081/insert/4000/3001/3001""".stripMargin))
         }
 
         "all should return a root node." in {
