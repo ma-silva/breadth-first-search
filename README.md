@@ -1,4 +1,4 @@
-## Coding Challenge 
+## Tree-based structure HTTP services API 
 
 ### Prerequisite:
  * sbt -> https://www.scala-sbt.org/ <enter>
