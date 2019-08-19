@@ -1,4 +1,4 @@
-## Tree-based structure HTTP services API 
+## Tree-based structure HTTP service API 
 
 ### Prerequisite:
  * sbt -> https://www.scala-sbt.org/ <enter>
